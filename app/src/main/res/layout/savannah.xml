@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id = "@+id/backgr_s"
+    android:background="@drawable/savannah_back">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/search_s"
+        android:src = "@drawable/search_animal" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id = "@+id/back_s"
+        android:background="@drawable/backk2"/>
+
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/animal1" />
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/animal2"/>
+
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/animal3"/>
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/obstacle1"/>
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/obstacle2"/>
+     <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id = "@+id/obstacle3"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id = "@+id/animalSearch_s"
+        />
+
+
+
+</RelativeLayout>

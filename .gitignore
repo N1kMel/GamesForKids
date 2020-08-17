@@ -1,4 +1,5 @@
 *.iml
+*.flat
 .gradle
 /local.properties
 /.idea/caches
@@ -8,8 +9,11 @@
 /.idea/navEditor.xml
 /.idea/assetWizardSettings.xml
 .DS_Store
-/build
+app/build/*
 /captures
 .externalNativeBuild
 .cxx
 .src/main/res
+*.png
+*.mp3
+*.jar
